@@ -1,4 +1,8 @@
 {
+    "name": "@valinatic/gatekeeper",
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": "@valinatic",
     "private": true,
     "scripts": {
         "dev": "npm run development",
@@ -6,7 +10,7 @@
         "watch": "mix watch",
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
-        "prod": "npm run production",
+        "pro": "npm run production",
         "production": "mix --production"
     },
     "devDependencies": {
