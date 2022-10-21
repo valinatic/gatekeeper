@@ -599,6 +599,12 @@ video {
 .text-center {
   text-align: center;
 }
+.font-delight {
+  font-family: Neue-Montreal-Regular-400, sans-serif;
+}
+.font-display {
+  font-family: BasementGrotesque-Display, sans-serif;
+}
 .font-basement {
   font-family: BasementGrotesque-Black, sans-serif;
 }
@@ -666,6 +672,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 .underline {
   text-decoration-line: underline;
 }
@@ -679,10 +689,15 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+body {
+    background-image: url("/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @font-face {
     font-family: "BasementGrotesque-Display";
-    src: url("/public/fonts/Basement/BasementGrotesque-Display.woff2")
-        format("woff2");
+    src: url("/fonts/Basement/BasementGrotesque-Display.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -690,17 +705,7 @@ video {
 
 @font-face {
     font-family: "BasementGrotesque-Black";
-    src: url("/public/fonts/Basement/BasementGrotesque-Black.woff2")
-        format("woff2");
-    font-weight: 900;
-    font-display: swap;
-    font-style: normal;
-}
-
-/* @font-face {
-    font-family: "BasementGrotesque-Black";
-    src: url("public/fonts/Basement/BasementGrotesque-Black.woff2")
-        format("woff2");
+    src: url("/fonts/Basement/BasementGrotesque-Black.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -708,7 +713,7 @@ video {
 
 @font-face {
     font-family: "SpaceMono-Regular";
-    src: url("public/fonts/Space/SpaceMono-Regular.woff2") format("woff2");
+    src: url("/fonts/Space/SpaceMono-Regular.woff2") format("woff2");
     font-weight: 400;
     font-display: swap;
     font-style: normal;
@@ -716,7 +721,7 @@ video {
 
 @font-face {
     font-family: "Inter-Regular";
-    src: url("public/fonts/Inter/Inter-Regular.woff2") format("woff2");
+    src: url("/fonts/Inter/Inter-Regular.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -724,7 +729,7 @@ video {
 
 @font-face {
     font-family: "Neue-Montreal-Medium";
-    src: url("public/fonts/Neue/Neue-Montreal-Medium.woff2") format("woff2");
+    src: url("/fonts/Neue/Neue-Montreal-Medium.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -732,21 +737,18 @@ video {
 
 @font-face {
     font-family: "Neue-Montreal-Regular-400";
-    src: url("public/fonts/Neue/Neue-Montreal-Regular-400.woff2")
-        format("woff2");
+    src: url("/fonts/Neue/Neue-Montreal-Regular-400.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
-} */
-
-body {
+}
+*/ body {
     background: rgb(3, 3, 44);
     color: rgb(255, 106, 0);
     /* background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
 }
-
 @media (prefers-color-scheme: dark) {
 
   .dark\:border-gray-700 {
@@ -779,7 +781,6 @@ body {
     color: rgb(156 163 175 / var(--tw-text-opacity));
   }
 }
-
 @media (min-width: 640px) {
 
   .sm\:ml-0 {
@@ -827,7 +828,6 @@ body {
     text-align: right;
   }
 }
-
 @media (min-width: 768px) {
 
   .md\:grid-cols-2 {
@@ -842,7 +842,6 @@ body {
     border-left-width: 1px;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:px-8 {

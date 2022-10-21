@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-image: url("/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @font-face {
     font-family: "BasementGrotesque-Display";
-    src: url("/public/fonts/Basement/BasementGrotesque-Display.woff2")
-        format("woff2");
+    src: url("/fonts/Basement/BasementGrotesque-Display.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -13,17 +18,7 @@
 
 @font-face {
     font-family: "BasementGrotesque-Black";
-    src: url("/public/fonts/Basement/BasementGrotesque-Black.woff2")
-        format("woff2");
-    font-weight: 900;
-    font-display: swap;
-    font-style: normal;
-}
-
-/* @font-face {
-    font-family: "BasementGrotesque-Black";
-    src: url("public/fonts/Basement/BasementGrotesque-Black.woff2")
-        format("woff2");
+    src: url("/fonts/Basement/BasementGrotesque-Black.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -31,7 +26,7 @@
 
 @font-face {
     font-family: "SpaceMono-Regular";
-    src: url("public/fonts/Space/SpaceMono-Regular.woff2") format("woff2");
+    src: url("/fonts/Space/SpaceMono-Regular.woff2") format("woff2");
     font-weight: 400;
     font-display: swap;
     font-style: normal;
@@ -39,7 +34,7 @@
 
 @font-face {
     font-family: "Inter-Regular";
-    src: url("public/fonts/Inter/Inter-Regular.woff2") format("woff2");
+    src: url("/fonts/Inter/Inter-Regular.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -47,7 +42,7 @@
 
 @font-face {
     font-family: "Neue-Montreal-Medium";
-    src: url("public/fonts/Neue/Neue-Montreal-Medium.woff2") format("woff2");
+    src: url("/fonts/Neue/Neue-Montreal-Medium.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -55,14 +50,12 @@
 
 @font-face {
     font-family: "Neue-Montreal-Regular-400";
-    src: url("public/fonts/Neue/Neue-Montreal-Regular-400.woff2")
-        format("woff2");
+    src: url("/fonts/Neue/Neue-Montreal-Regular-400.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
-} */
-
-body {
+}
+*/ body {
     background: rgb(3, 3, 44);
     color: rgb(255, 106, 0);
     /* background-repeat: no-repeat;
