@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-    background-image: url("/banner.jpg");
+    background-image: url("/assets/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 @font-face {
     font-family: "BasementGrotesque-Display";
-    src: url("/fonts/Basement/BasementGrotesque-Display.woff2") format("woff2");
+    src: url("/assets/fonts/Basement/BasementGrotesque-Display.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -18,7 +18,7 @@ body {
 
 @font-face {
     font-family: "BasementGrotesque-Black";
-    src: url("/fonts/Basement/BasementGrotesque-Black.woff2") format("woff2");
+    src: url("/assets/fonts/Basement/BasementGrotesque-Black.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -26,7 +26,7 @@ body {
 
 @font-face {
     font-family: "SpaceMono-Regular";
-    src: url("/fonts/Space/SpaceMono-Regular.woff2") format("woff2");
+    src: url("/assets/fonts/Space/SpaceMono-Regular.woff2") format("woff2");
     font-weight: 400;
     font-display: swap;
     font-style: normal;
@@ -34,7 +34,7 @@ body {
 
 @font-face {
     font-family: "Inter-Regular";
-    src: url("/fonts/Inter/Inter-Regular.woff2") format("woff2");
+    src: url("/assets/fonts/Inter/Inter-Regular.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -42,7 +42,7 @@ body {
 
 @font-face {
     font-family: "Neue-Montreal-Medium";
-    src: url("/fonts/Neue/Neue-Montreal-Medium.woff2") format("woff2");
+    src: url("/assets/fonts/Neue/Neue-Montreal-Medium.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
@@ -50,7 +50,7 @@ body {
 
 @font-face {
     font-family: "Neue-Montreal-Regular-400";
-    src: url("/fonts/Neue/Neue-Montreal-Regular-400.woff2") format("woff2");
+    src: url("/assets/fonts/Neue/Neue-Montreal-Regular-400.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
