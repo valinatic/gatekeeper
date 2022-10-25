@@ -10,7 +10,7 @@ class AddNikToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('nik')->unique();
+            $table->string('nik')->unique()->nullable();
         });
     }
 
