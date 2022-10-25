@@ -11,29 +11,29 @@
     "file": "assets/SpaceMono-Regular.61a4bcc4.woff2",
     "src": "public/assets/fonts/Space/SpaceMono-Regular.woff2"
   },
-  "public/assets/fonts/Inter/Inter-Regular.woff2": {
-    "file": "assets/Inter-Regular.a27b0b39.woff2",
-    "src": "public/assets/fonts/Inter/Inter-Regular.woff2"
+  "public/assets/fonts/Neue/Neue-Montreal-Regular-400.woff2": {
+    "file": "assets/Neue-Montreal-Regular-400.8b139cb2.woff2",
+    "src": "public/assets/fonts/Neue/Neue-Montreal-Regular-400.woff2"
   },
   "public/assets/fonts/Neue/Neue-Montreal-Medium.woff2": {
     "file": "assets/Neue-Montreal-Medium.41dbfc79.woff2",
     "src": "public/assets/fonts/Neue/Neue-Montreal-Medium.woff2"
   },
-  "public/assets/fonts/Neue/Neue-Montreal-Regular-400.woff2": {
-    "file": "assets/Neue-Montreal-Regular-400.8b139cb2.woff2",
-    "src": "public/assets/fonts/Neue/Neue-Montreal-Regular-400.woff2"
+  "public/assets/fonts/Inter/Inter-Regular.woff2": {
+    "file": "assets/Inter-Regular.a27b0b39.woff2",
+    "src": "public/assets/fonts/Inter/Inter-Regular.woff2"
   },
   "public/assets/banner.jpg": {
     "file": "assets/banner.b5c25406.jpg",
     "src": "public/assets/banner.jpg"
   },
   "resources/js/app.js": {
-    "file": "assets/app.a90aeddc.js",
+    "file": "assets/app.c8f1a009.js",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.dcc7def0.css",
+    "file": "assets/app.f9fca77c.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
