@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 body {
-  background-image: url("/assets/banner.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #fff;
+  /* background-image: url("/assets/banner.jpg"); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 @font-face {
