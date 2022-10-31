@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
  
 
-Route::view('/', 'welcome')->name('home');
+Route::view('/', 'auth.login')->name('login');
 Route::view('/about', 'pages.about')->name('about');
 
 Route::view('/dashboard', 'dashboard')->middleware(['auth'])->name('dashboard');
